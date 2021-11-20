@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.2.0">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2021-11-10T00:00:00-06:00" Tipo="FACT" />
+        <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="militasachiquimula@gmail.com" NITEmisor="98226886" NombreComercial="MILITA" NombreEmisor="MILITA SOCIEDAD ANONIMA">
+          <dte:DireccionEmisor>
+            <dte:Direccion>AVENIDA CENTRAL 4-00 ZONA 4 BARRIO EL MOLINO</dte:Direccion>
+            <dte:CodigoPostal>20001</dte:CodigoPostal>
+            <dte:Municipio>CHIQUIMULA</dte:Municipio>
+            <dte:Departamento>CHIQUIMULA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor CorreoReceptor="" IDReceptor="56083513" NombreReceptor="OLIVER RAFAEL ROLDAN RAMIREZ">
+          <dte:DireccionReceptor>
+            <dte:Direccion>AVENIDA REVOLUCION 4-54, BARRIO LA ESTACION, GUALAN ZACAPA</dte:Direccion>
+            <dte:CodigoPostal>20001</dte:CodigoPostal>
+            <dte:Municipio>GUALAN</dte:Municipio>
+            <dte:Departamento>ZACAPA</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase CodigoEscenario="1" TipoFrase="1" />
+        </dte:Frases>
+        <dte:Items>
+          <dte:Item BienOServicio="B" NumeroLinea="1">
+            <dte:Cantidad>1.000000</dte:Cantidad>
+            <dte:UnidadMedida>PAQ</dte:UnidadMedida>
+            <dte:Descripcion>PASTA PLASTICA PARA ENCUADERNAR T/C PERFEX  - TRANSPARENTE|0502620032</dte:Descripcion>
+            <dte:PrecioUnitario>50.500000</dte:PrecioUnitario>
+            <dte:Precio>50.50</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>45.09</dte:MontoGravable>
+                <dte:MontoImpuesto>5.41</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>50.50</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="2">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>MEMORIA USB 3.2 DATA TRAVELER EXODIA 32GB KC-U2G32-7GR|740617322927</dte:Descripcion>
+            <dte:PrecioUnitario>35.000000</dte:PrecioUnitario>
+            <dte:Precio>70.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>62.50</dte:MontoGravable>
+                <dte:MontoImpuesto>7.50</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>70.00</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="3">
+            <dte:Cantidad>1.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>MOUSE KLIP XTREME INALAMBRICO KLEVER KMW-340 AZUL|0023830255</dte:Descripcion>
+            <dte:PrecioUnitario>70.300000</dte:PrecioUnitario>
+            <dte:Precio>70.30</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>62.77</dte:MontoGravable>
+                <dte:MontoImpuesto>7.53</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>70.30</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="4">
+            <dte:Cantidad>1.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>NYLON FAST ADHESIVO ROLLO 45CM X 3MTS T-3 CS293 TRANSPARENTE|0903930011</dte:Descripcion>
+            <dte:PrecioUnitario>10.300000</dte:PrecioUnitario>
+            <dte:Precio>10.30</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>9.20</dte:MontoGravable>
+                <dte:MontoImpuesto>1.10</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>10.30</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="5">
+            <dte:Cantidad>10.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>ESPIRAL PLASTICO DIAMETRO 1 3/4 ESEN PERFEX A32444|0902120026</dte:Descripcion>
+            <dte:PrecioUnitario>2.100000</dte:PrecioUnitario>
+            <dte:Precio>21.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>18.75</dte:MontoGravable>
+                <dte:MontoImpuesto>2.25</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>21.00</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="6">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>ESPIRAL PLASTICO 1/4 CRISTAL PQT10 A20321|7501308671662</dte:Descripcion>
+            <dte:PrecioUnitario>4.200000</dte:PrecioUnitario>
+            <dte:Precio>8.40</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>7.50</dte:MontoGravable>
+                <dte:MontoImpuesto>0.90</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>8.40</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="7">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>ESPIRAL PLASTICO CRISTAL DIAMETRO 3/8 PQT10 9.53MM A20325|7501308671709</dte:Descripcion>
+            <dte:PrecioUnitario>3.300000</dte:PrecioUnitario>
+            <dte:Precio>6.60</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>5.89</dte:MontoGravable>
+                <dte:MontoImpuesto>0.71</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>6.60</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="8">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>ESPIRAL PLASTICO DIAMETRO 1/4 PAQ10 A20322|0975490312</dte:Descripcion>
+            <dte:PrecioUnitario>4.200000</dte:PrecioUnitario>
+            <dte:Precio>8.40</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>7.50</dte:MontoGravable>
+                <dte:MontoImpuesto>0.90</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>8.40</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="9">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>ESPIRAL PLASTICO DIAMETRO 5/16 PAQ 10 A20324|0975490280</dte:Descripcion>
+            <dte:PrecioUnitario>3.000000</dte:PrecioUnitario>
+            <dte:Precio>6.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>5.36</dte:MontoGravable>
+                <dte:MontoImpuesto>0.64</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>6.00</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="10">
+            <dte:Cantidad>1.000000</dte:Cantidad>
+            <dte:UnidadMedida>BOL</dte:UnidadMedida>
+            <dte:Descripcion>ESPIRAL PLASTICO DIAMETRO 1 PLG A20334|0902120011</dte:Descripcion>
+            <dte:PrecioUnitario>16.900000</dte:PrecioUnitario>
+            <dte:Precio>16.90</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>15.09</dte:MontoGravable>
+                <dte:MontoImpuesto>1.81</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>16.90</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="11">
+            <dte:Cantidad>1.000000</dte:Cantidad>
+            <dte:UnidadMedida>PAQ</dte:UnidadMedida>
+            <dte:Descripcion>ESPIRAL PLASTICO DIAMETRO 1 1/8" ESEN PERFEX A32441|0902120023</dte:Descripcion>
+            <dte:PrecioUnitario>40.800000</dte:PrecioUnitario>
+            <dte:Precio>40.80</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>36.43</dte:MontoGravable>
+                <dte:MontoImpuesto>4.37</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>40.80</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="12">
+            <dte:Cantidad>5.000000</dte:Cantidad>
+            <dte:UnidadMedida>PAQ</dte:UnidadMedida>
+            <dte:Descripcion>MASCARILLA QUIRURGICA NEGRA|5439</dte:Descripcion>
+            <dte:PrecioUnitario>18.000000</dte:PrecioUnitario>
+            <dte:Precio>90.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>80.36</dte:MontoGravable>
+                <dte:MontoImpuesto>9.64</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>90.00</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="13">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>MEMORIA HP V222W 16GB|4712847094048</dte:Descripcion>
+            <dte:PrecioUnitario>37.900000</dte:PrecioUnitario>
+            <dte:Precio>75.80</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>67.68</dte:MontoGravable>
+                <dte:MontoImpuesto>8.12</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>75.80</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="14">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>TINTA IMPRESORA EPSON T504420 COLOR AMARILLO 70 ML -ORIGINAL-|010343938779</dte:Descripcion>
+            <dte:PrecioUnitario>77.200000</dte:PrecioUnitario>
+            <dte:Precio>154.40</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>137.86</dte:MontoGravable>
+                <dte:MontoImpuesto>16.54</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>154.40</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="15">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>TINTA IMPRESORA EPSON T504320 COLOR MAGENTA 70 ML -ORIGINAL-|010343938762</dte:Descripcion>
+            <dte:PrecioUnitario>77.200000</dte:PrecioUnitario>
+            <dte:Precio>154.40</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>137.86</dte:MontoGravable>
+                <dte:MontoImpuesto>16.54</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>154.40</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="16">
+            <dte:Cantidad>1.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>TINTA EPSON EN BOTE ORIGINAL T544 NEGRA|0905720205</dte:Descripcion>
+            <dte:PrecioUnitario>81.900000</dte:PrecioUnitario>
+            <dte:Precio>81.90</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>73.13</dte:MontoGravable>
+                <dte:MontoImpuesto>8.77</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>81.90</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="17">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>TINTA IMPRESORA EPSON T504220 COLOR CIAN 70 ML -ORIGINAL-|010343938755</dte:Descripcion>
+            <dte:PrecioUnitario>77.200000</dte:PrecioUnitario>
+            <dte:Precio>154.40</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>137.86</dte:MontoGravable>
+                <dte:MontoImpuesto>16.54</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>154.40</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="18">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>TINTA CANON EN BOTE ORIGINAL 190 YELLOW|4549292041866</dte:Descripcion>
+            <dte:PrecioUnitario>77.500000</dte:PrecioUnitario>
+            <dte:Precio>155.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>138.39</dte:MontoGravable>
+                <dte:MontoImpuesto>16.61</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>155.00</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="19">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>TINTA CANON EN BOTE ORIGINAL 190 MAGENTA|4549292041842</dte:Descripcion>
+            <dte:PrecioUnitario>77.500000</dte:PrecioUnitario>
+            <dte:Precio>155.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>138.39</dte:MontoGravable>
+                <dte:MontoImpuesto>16.61</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>155.00</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="20">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>TINTA CANON EN BOTE ORIGINAL 190 CIAN|4549292041828</dte:Descripcion>
+            <dte:PrecioUnitario>77.500000</dte:PrecioUnitario>
+            <dte:Precio>155.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>138.39</dte:MontoGravable>
+                <dte:MontoImpuesto>16.61</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>155.00</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="21">
+            <dte:Cantidad>2.000000</dte:Cantidad>
+            <dte:UnidadMedida>UNI</dte:UnidadMedida>
+            <dte:Descripcion>TINTA CANON EN BOTE ORIGINAL 190 NEGRA|4549292054729</dte:Descripcion>
+            <dte:PrecioUnitario>77.500000</dte:PrecioUnitario>
+            <dte:Precio>155.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>138.39</dte:MontoGravable>
+                <dte:MontoImpuesto>16.61</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>155.00</dte:Total>
+          </dte:Item>
+          <dte:Item BienOServicio="B" NumeroLinea="22">
+            <dte:Cantidad>1.000000</dte:Cantidad>
+            <dte:UnidadMedida>DOC</dte:UnidadMedida>
+            <dte:Descripcion>BOLIGRAFO BIC CLASICO P/MEDIANO AZUL MS11A|00001</dte:Descripcion>
+            <dte:PrecioUnitario>12.100000</dte:PrecioUnitario>
+            <dte:Precio>12.10</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>10.80</dte:MontoGravable>
+                <dte:MontoImpuesto>1.30</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>12.10</dte:Total>
+          </dte:Item>
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="177.01" />
+          </dte:TotalImpuestos>
+          <dte:GranTotal>1652.20</dte:GranTotal>
+        </dte:Totales>
+      </dte:DatosEmision><dte:Certificacion><dte:NITCertificador>12521337</dte:NITCertificador><dte:NombreCertificador>INFILE, S.A.</dte:NombreCertificador><dte:NumeroAutorizacion Numero="1367755856" Serie="FE49EB4D">FE49EB4D-5186-4C50-82FE-DCFB11AF5DAF</dte:NumeroAutorizacion><dte:FechaHoraCertificacion>2021-11-10T16:54:17-06:00</dte:FechaHoraCertificacion></dte:Certificacion>
+    </dte:DTE>
+    
+  </dte:SAT>
+<ds:Signature Id="xmldsig-fcef1b2b-ba05-4c36-8a3d-2bedd3b21a6b">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+<ds:Reference Id="xmldsig-fcef1b2b-ba05-4c36-8a3d-2bedd3b21a6b-ref0" URI="#DatosEmision">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<ds:DigestValue>zx/mhV5LwboeoB2lx3VcOl4i162XoW3AyhOzHrEZuf8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-fcef1b2b-ba05-4c36-8a3d-2bedd3b21a6b-signedprops">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<ds:DigestValue>dzx2buoN/In5U/Ts014JoRfpBL3gx1nlkq1khBeA9RY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-fcef1b2b-ba05-4c36-8a3d-2bedd3b21a6b-sigvalue">
+OeHahRthlFIoUrZCxU+CZT8e4v11mbNf74snm5AqGpkEe3wz/nX6E0JtzBP6iASIbczeoipOcyWi
+HFQ2bySRQH0OCqKPJeHeSpLtD3QDZa1IfR1rtxIWJNDFeB7/FINFcTzbrjtzPvi6MCeW90F1wsHB
+ZAni+GeH5BbOB4WD5PYB0XVihhfMB+9j4hKBc3uekI3EWWTXUVvTF+RWVfM6YwDPCy8sQdoOwYum
+Za9p5otc+sib8hzDfpxuGjlXIpn4/eZtjc8Ut3bJcqWrYzhmNEAYNZEWiRB5G/sXp/eU5am94Arp
+E3M+7HHMdsUobV6sZubIYanngcXICmVrsn8bzg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUjCCAjqgAwIBAgIIerylPcAQNEowDQYJKoZIhvcNAQELBQAwKTEMMAoGA1UEAwwDRkVMMQww
+CgYDVQQKDANTQVQxCzAJBgNVBAYTAkdUMB4XDTIwMDUxNTE4MTg1MloXDTIyMDUxNTE4MTg1Mlow
+KDERMA8GA1UEAwwIOTgyMjY4ODYxEzARBgNVBAoMCnNhdC5nb2IuZ3QwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCzD2bnEGkvVyr4DXkOTKTRYLzRrha45guFyQmQm3OFd4NpeIa5PIT7
+2C7H3LFJdikyr/VZX/tl3ZYcyaq9TW1EDFRLxlk/+w9EC2vPUs54X2UpijH0tNU5FHHVPLlUZB52
+Wxr37RlRljyyfU1bi9E2heWkFZ3FF6Dm2SEgu3nKdcgfr/MD0vvHfIFONsc5wQiNdtxr60/w0AZh
+FSUWYB+xg/zRWE8/K0SlzBW+96gJn0OrAyCi4+9utvbmTxI0ou4G77Al1B7C3gh1uEFIfeY+AiEY
+10ys3Cw0Qg80VJQxcikH03vfaWK90MKylCs5RialWnoClMMeIf7JcGzCZIyrAgMBAAGjfzB9MAwG
+A1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUc73zilJsM5hZ1/fQrbFzjLRQSgowHQYDVR0lBBYwFAYI
+KwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBRd3EPVa93o2xxxwPtL6YQsRRGqtTAOBgNVHQ8B
+Af8EBAMCBeAwDQYJKoZIhvcNAQELBQADggEBAHueAH8KfTC0Hmkie/J35N/FChS8a0GBOpGclUOY
+USmYA5d/2MAEBfPIy809+dSJYx0Jmghr479Vh/u3yJ8T0XM9IitOaALJVNz2LbGm1FrMCIWH/eVE
+Zili1/aJiuBwA1RDHcNjRFOFKK3hDqosGD+Em7NqSeIeB2qTanrKrCVG42hbfM1gDRKm6f2YY76I
+P5i3R5HSm5QNG0CPJGkgrE4A/iKv5eMXGKarrzz5HKWIWTd/TR8iA074kpzVgZbvYzhI7rMWre4r
+/SaGEvUFdiH/iel11xYavT/3X9jVVLrZpPnU0oYK7tYhE1vIeCflcVBJDco/31jI6skz8dLH9FQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-fcef1b2b-ba05-4c36-8a3d-2bedd3b21a6b"><xades:SignedProperties Id="xmldsig-fcef1b2b-ba05-4c36-8a3d-2bedd3b21a6b-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2021-11-10T22:54:16.461Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>GwxowbqXUqwhxf5A3ftu9N/bmeyMxY03CjZcop7SSJA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=GT,O=SAT,CN=FEL</ds:X509IssuerName><ds:X509SerialNumber>8844125452882687050</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature><ds:Signature Id="xmldsig-269c98fd-ba51-48ef-9153-6b264e97fecf">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+<ds:Reference Id="xmldsig-269c98fd-ba51-48ef-9153-6b264e97fecf-ref0" URI="#DatosEmision">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<ds:DigestValue>zx/mhV5LwboeoB2lx3VcOl4i162XoW3AyhOzHrEZuf8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-269c98fd-ba51-48ef-9153-6b264e97fecf-signedprops">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+<ds:DigestValue>2c/1zgnvSyrEdLgW/D9tZ2SahzRt7DduBOViKuxYcZA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-269c98fd-ba51-48ef-9153-6b264e97fecf-sigvalue">
+XkiB53CD6mXhjdEW87GkJNnD70l1vuFRY9Lril33ko07AqYa7cOE8UKvUN1Ivwu4GtX2W3QCu3nE
+1o1Sb2r1l1/4twwxunXhaOh4dsDL+HW4eZtUvFT4Rn7EoC5T3ldPzqUlpDGnE/4BIZ3Ou8J9pjH1
+5c1lsRdqeSZrl10uZVNqNNk2/VWEICJ9aPCCfoYtbM9ODsDHxJB8T4pFlF3ANev29azgBX21Em52
+jD0XU+gJQZxzZBmf1KxQ4J35/dReSfO5ksRdUNc0Jd9Gcl2kYgRUPLfYC0maMedJmpdFl4ZpXfwA
+UazsobvfaoqTFbT6IP2f4K3/rbAQYyvb5CmEMA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ8TCCB9mgAwIBAgIMQUNHVEkxAAAAAAgqMA0GCSqGSIb3DQEBCwUAMIIBNDESMBAGA1UELRMJ
+NTkzOTg0OC01MQswCQYDVQQGEwJHVDESMBAGA1UECBMJR3VhdGVtYWxhMRIwEAYDVQQHEwlHdWF0
+ZW1hbGExDjAMBgNVBBETBTAxMDA5MUkwRwYDVQQJE0BBdmVuaWRhIFJlZm9ybWEgMy00OCwgem9u
+YSA5IEVkaWZpY28gQW5lbCA1dG8uIE5pdmVsIE9maWNpbmEgNTAzMRIwEAYDVQQLEwlHdWF0ZW1h
+bGExJjAkBgNVBAoTHVJlZ2lzdHJvIERpZ2l0YWwgUHJpc21hLCBTLkEuMSowKAYJKoZIhvcNAQkB
+FhtzZXJ2aWNpb2FsY2xpZW50ZUBwcmlzbWEuZ3QxJjAkBgNVBAMTHVJlZ2lzdHJvIERpZ2l0YWwg
+UHJpc21hLCBTLkEuMB4XDTE5MDgyMzE3MDI1MFoXDTIyMDgyMjE3MDI1MFowggGAMRowGAYDVQQN
+DBFQZXJzb25hIEp1csOtZGljYTELMAkGA1UEBhMCR1QxHjAcBgNVBAcMFUdVQVRFTUFMQSAvIEdV
+QVRFTUFMQTE5MDcGA1UECQwwQVYgUkVGT1JNQSAzLTQ4IFpPTkEgOSBFRElGSUNJTyBBTkVMIE9G
+SUNJTkEgNDAxMRIwEAYDVQQUEwkyMjA4LTIyMDgxFDASBgNVBAsMC1BSRVNJREVOQ0lBMQ8wDQYD
+VQQKDAZJTkZJTEUxMzAxBgNVBAwMKlBSRVNJREVOVEUgRUpFQ1VUSVZPIFkgUkVQUkVTRU5UQU5U
+RSBMRUdBTDEYMBYGA1UEBRMPMTY1MyAyNDk4OCAwMTAxMREwDwYDVQQtDAgxMjUyMTMzNzEfMB0G
+A1UEKgwWR1VJTExFUk1PIEJSQU4gVkFMTEVKTzEmMCQGCSqGSIb3DQEJARYXZ2VyZW5jaWEyQGlu
+ZmlsZS5jb20uZ3QxFDASBgNVBAMMC0lORklMRSBTLkEuMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAsgT7LsLQUZb1ETH4XlATFxXZ698bldnwlf080z1j1IwxEaSkDIaGxI4oBaz05wtu
+JPUmYDh5Zo/7Bg8tlcXnM97AVTjMwrb90YjERzriR50ldyoyMlv3VtdE50LAqWqcvOsTqX4Rng5y
+TDj2nXnm3YCWOcf7M67lzJf0lVWENi2rL6p1C9TUQN3uO/tWaoVlGoRk/caohHdgBqZmlveewK7G
+bavkuDFvZmcQk4HaqiJiDJiNFJA6aWIiCb2SmeOCJikqe1oWtR3p3bCICzso4vxkiiHxohdBgFoe
+oGcbDcXXxAEDfXGAy1quVL1HkdMDmDLtrTcDYj3xMmZ+cl3mrQIDAQABo4IDsTCCA60wQgYIKwYB
+BQUHAQEENjA0MDIGCCsGAQUFBzABhiZodHRwOi8vb2NzcC5yZWFjaGNvcmUuY29tL1BSSVNNQUdU
+T0NTUDCCAVIGA1UdEQSCAUkwggFFgSdQcmVzdGFkb3IgZGUgU2VydmljaW9zIGRlIENlcnRpZmlj
+YWNpP26BWyBhdXRvcml6YWRvIHNlZz9uIHJlc29sdWNpP24gTm8uIFBTQy0wMS0yMDE0IGVtaXRp
+ZGEgcG9yIGVsIFJQU0MgZGVsIE1pbmlzdGVyaW8gZGUgRWNvbm9tP2GBVyBkZSBhY3VlcmRvIGEg
+bGEgTGV5IHBhcmEgZWwgcmVjb25vY2ltaWVudG8gZGUgbGFzIGNvbXVuaWNhY2lvbmVzIHkgZmly
+bWFzIGVsZWN0cj9uaWNhc4FLIERlY3JldG8gNDctMjAwOCBkZWwgQ29uZ3Jlc28gZGUgbGEgUmVw
+P2JsaWNhIGRlIEd1YXRlbWFsYSB5IHN1IHJlZ2xhbWVudG8ugRdnZXJlbmNpYTJAaW5maWxlLmNv
+bS5ndDBOBgNVHR8ERzBFMEOgQaA/hj1odHRwczovL2NhLmFkdmFudGFnZS1zZWN1cml0eS5jb20v
+YWNwcmlzbWEwMS9jcmwvcHJpc21hZ3QuY3JsMIIBbAYDVR0jBIIBYzCCAV+AFDQWTHC3dg5sNj0O
+yLK27YJz1oQkoYIBPKSCATgwggE0MRIwEAYDVQQtEwk1OTM5ODQ4LTUxCzAJBgNVBAYTAkdUMRIw
+EAYDVQQIEwlHdWF0ZW1hbGExEjAQBgNVBAcTCUd1YXRlbWFsYTEOMAwGA1UEERMFMDEwMDkxSTBH
+BgNVBAkTQEF2ZW5pZGEgUmVmb3JtYSAzLTQ4LCB6b25hIDkgRWRpZmljbyBBbmVsIDV0by4gTml2
+ZWwgT2ZpY2luYSA1MDMxEjAQBgNVBAsTCUd1YXRlbWFsYTEmMCQGA1UEChMdUmVnaXN0cm8gRGln
+aXRhbCBQcmlzbWEsIFMuQS4xKjAoBgkqhkiG9w0BCQEWG3NlcnZpY2lvYWxjbGllbnRlQHByaXNt
+YS5ndDEmMCQGA1UEAxMdUmVnaXN0cm8gRGlnaXRhbCBQcmlzbWEsIFMuQS6CB0FDR1QxSTEwEQYJ
+YIZIAYb4QgEBBAQDAgCAMAsGA1UdDwQEAwIBoDASBgNVHRMBAf8ECDAGAQEAAgEAMB0GA1UdJQQW
+MBQGCCsGAQUFBwMEBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOCAgEAmCAak6HYYzfOYqxE12P9
+8noEiUUA/jW01wDh74EGMt8DuFnENXosD1QH2aK1dSvavzftPkXppw+1raF2fHgzvTYCNfsI8eWM
+716YZac4zdgcATWbeDD2NB+OP7Jfhiy66g9TVAQnjPaJHRS0ckmEECWZ1q6YK0FhjxNaNEr6nbc7
+eGCTfuSQCGDDTuanhVYYdqDj/6+GNXQ/JrREXXr6Wytvg8lnbdbJe25uS3sogGzcqSc5j/4E9u2W
+trijoYQYxc2NuowZmj6OfWmi8EEK2ukwbts05LbUJ/hw8oJr2RfQJHFBiuKSw2byi6SNCh2E8fqx
+s14QFsl06HxPat4NOx0DhSkvMDNt245lZeoTG2HxAtN/gd0lyw1Zm8NJo6eOi0HsPhmtce/PCVxz
+SLWy713bnbG8kkf/vUTZNSMuc3qP7QYxplQaQdptiZYszMXlSvQMAVexHn9HKaXqSi9MEQ/GAjq/
+Z9qcewALA/PWRTSLmJsUPjbdHZkDdI33Qvj6pNeqaQ8fBM/fr2khhHB62gChvt4YGE0aqQ8/hnjS
+hgKdorXIyD5zhyhEd6E2KR2CRezvoGCborKznp5ZKCz7VJckmTb5kmR0tTcKb5gKMUW9HJn3WVJp
+ZN+CYIHnQ1VbhaXuPV0KEDsP4nLkXJhCLRI6DmTSmEUxaFci+xWCWyI=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-269c98fd-ba51-48ef-9153-6b264e97fecf"><xades:SignedProperties Id="xmldsig-269c98fd-ba51-48ef-9153-6b264e97fecf-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2021-11-10T16:54:17.061-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>EpIC7Rg2Yxde64SH9Ucv2y6VTsawXrcWG/2uZudWfm0=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Registro Digital Prisma\, S.A.,1.2.840.113549.1.9.1=#161b736572766963696f616c636c69656e746540707269736d612e6774,O=Registro Digital Prisma\, S.A.,OU=Guatemala,STREET=Avenida Reforma 3-48\, zona 9 Edifico Anel 5to. Nivel Oficina 503,2.5.4.17=#13053031303039,L=Guatemala,ST=Guatemala,C=GT,2.5.4.45=#1309353933393834382d35</ds:X509IssuerName><ds:X509SerialNumber>20197860511122392196856154154</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></dte:GTDocumento>

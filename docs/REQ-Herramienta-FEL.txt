@@ -1,0 +1,8 @@
+>>> REQUERIMIENTOS
+============================================================================================================
+- [REQ1] Poder editar los datos como numero y coorreo desde afuera (por ejemplo desde un archivo)
+- [REQ2] Poder cambiar desde afuera el logo (solo cambiar el archivo de imagen, en el nombre colocar medidas en px)
+- [REQ3] Que el detalle se tire a otra hoja, si ya no cabe en la primera
+- [REQ4] nombre del receptor dejar espacio porque hay nombres largos
+- [REQ5] Poner numero pagina
+- [REQ6] Tipo de fuente Franklin Gothic Book para el modelo final
