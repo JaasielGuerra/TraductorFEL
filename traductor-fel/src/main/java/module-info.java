@@ -6,6 +6,7 @@ module com.guerra {
     requires jasperreports.fonts;
     requires java.sql;
     requires javafx.fxml;
+    requires org.apache.logging.log4j;
     exports com.guerra;
     exports com.guerra.model;
     exports com.guerra.controller;
