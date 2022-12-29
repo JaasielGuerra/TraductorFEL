@@ -7,9 +7,12 @@ module com.guerra {
     requires java.sql;
     requires javafx.fxml;
     requires org.apache.logging.log4j;
+    requires lombok;
     exports com.guerra;
     exports com.guerra.model;
     exports com.guerra.controller;
+    exports com.guerra.service;
+    exports com.guerra.model.dto;
     opens com.guerra.model to java.xml.bind;
     opens com.guerra.controller to javafx.fxml;
 }

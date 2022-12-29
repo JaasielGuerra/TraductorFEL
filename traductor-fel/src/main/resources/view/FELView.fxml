@@ -43,9 +43,9 @@
                <bottom>
                   <Pane BorderPane.alignment="CENTER">
                      <children>
-                        <Button fx:id="btnCerrar" layoutX="720.0" mnemonicParsing="false" text="Cerrar" />
-                        <Button fx:id="btnGuardarConfig" layoutX="552.0" mnemonicParsing="false" text="Guardar configuración" />
-                        <Button fx:id="btnExportar" layoutX="432.0" mnemonicParsing="false" text="Exportar a PDF" />
+                        <Button layoutX="720.0" mnemonicParsing="false" text="Cerrar" />
+                        <Button layoutX="552.0" mnemonicParsing="false" onAction="#onActionBtnGuardarConfig" text="Guardar configuración" />
+                        <Button layoutX="432.0" mnemonicParsing="false" text="Exportar a PDF" />
                         <Button layoutX="347.0" mnemonicParsing="false" text="Refrescar" />
                      </children></Pane>
                </bottom>
@@ -80,13 +80,13 @@
                     </rowConstraints>
                      <children>
                         <Label text="LINK FACEBOOK:" />
-                        <TextField fx:id="txtLinkFb" GridPane.columnIndex="1" />
-                        <TextField fx:id="txtTels" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField fx:id="txtSocialFacebook" GridPane.columnIndex="1" />
+                        <TextField fx:id="txtContactTels" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                         <Label text="TELEFONOS:" GridPane.rowIndex="1" />
                         <Label text="CORREO:" GridPane.rowIndex="2" />
                         <Label text="LOGO:" GridPane.rowIndex="3" />
-                        <TextField fx:id="txtCorreo" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <TextField fx:id="txtLogo" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="txtContactEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextField fx:id="txtNameLogo" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                      </children>
                   </GridPane>
                </content>
