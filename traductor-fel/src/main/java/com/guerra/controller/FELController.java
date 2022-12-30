@@ -10,6 +10,7 @@ import com.guerra.util.AppProperties;
 import com.guerra.util.ShowAlertsUtil;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import lombok.extern.log4j.Log4j2;
@@ -114,6 +115,16 @@ public class FELController {
     @FXML
     private void onActionBtnExportar() {
         log.info("Boton exportar presionado");
+    }
+
+    @FXML
+    private void onActionBtnCerrar() {
+        log.info("Boton cerrar presionado");
+
+        Alert alert = ShowAlertsUtil.showConfirmation("Cerrar aplicación", "¿Está seguro que desea cerrar la aplicación?");
+        if (alert.getResult() == ButtonType.OK) {
+            System.exit(0);
+        }
     }
 
 }

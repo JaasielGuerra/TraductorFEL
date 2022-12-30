@@ -43,4 +43,12 @@ public class ShowAlertsUtil {
         alert.setContentText(content);
         alert.showAndWait();
     }
+
+    public static Alert showConfirmation(String title, String header) {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle(title);
+        alert.setHeaderText(header);
+        alert.showAndWait();
+        return alert;
+    }
 }
