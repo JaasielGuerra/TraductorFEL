@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.guerra.controller.FELController">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.guerra.controller.FELController">
    <children>
       <BorderPane layoutX="145.0" layoutY="87.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
@@ -24,7 +24,7 @@
                   <Insets bottom="10.0" left="10.0" />
                </BorderPane.margin>
                <center>
-                  <ListView fx:id="lstArchivosXml" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+                  <ListView fx:id="lstViewArchivosXml" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
                </center>
                <top>
                   <Label alignment="CENTER" contentDisplay="CENTER" text="Archivos FEL XML" BorderPane.alignment="CENTER_LEFT">
@@ -45,8 +45,8 @@
                      <children>
                         <Button layoutX="720.0" mnemonicParsing="false" text="Cerrar" />
                         <Button layoutX="552.0" mnemonicParsing="false" onAction="#onActionBtnGuardarConfig" text="Guardar configuración" />
-                        <Button layoutX="432.0" mnemonicParsing="false" text="Exportar a PDF" />
-                        <Button layoutX="347.0" mnemonicParsing="false" text="Refrescar" />
+                        <Button layoutX="432.0" mnemonicParsing="false" onAction="#onActionBtnExportar" text="Exportar a PDF" />
+                        <Button layoutX="284.0" mnemonicParsing="false" onAction="#onActionBtnScanearDirectorio" text="Escanear directorio" />
                      </children></Pane>
                </bottom>
                <padding>
