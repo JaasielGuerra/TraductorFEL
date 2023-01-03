@@ -66,7 +66,10 @@ public class DaoFactoryXml extends DaoFactory {
         return new TotalesDaoXml(fel);
     }
 
-
+    @Override
+    public DatosGeneralesDao getDatosGeneralesDao() {
+        return new DatosGeneralesDaoXml(fel);
+    }
 }
 
 

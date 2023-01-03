@@ -13,6 +13,14 @@ public class AppProperties {
         return AppProperties.getPathUser() + File.separator + "input";
     }
 
+    public static String getPathOutputDirectory() {
+        return AppProperties.getPathUser() + File.separator + "output";
+    }
+
+    public static String getUrlBaseVerificadorFel(){
+        return "https://felpub.c.sat.gob.gt/verificador-web/publico/vistas/verificacionDte.jsf";
+    }
+
     public static String getPathResourceExternalDirectory() {
         return AppProperties.getPathUser() + File.separator + "resources";
     }

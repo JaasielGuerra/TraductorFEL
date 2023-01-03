@@ -13,6 +13,8 @@ module com.guerra {
     exports com.guerra.controller;
     exports com.guerra.service;
     exports com.guerra.model.dto;
+    exports com.guerra.exception;
+    exports com.guerra.dao;
     opens com.guerra.model to java.xml.bind;
     opens com.guerra.controller to javafx.fxml;
 }

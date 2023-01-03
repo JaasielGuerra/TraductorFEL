@@ -17,6 +17,5 @@ public abstract class DaoFactory {
     public abstract CertificacionDao getCertificacionDao();
     public abstract ItemsDao getItemsDao();
     public abstract TotalesDao getTotalesDao();
-
-
+    public abstract DatosGeneralesDao getDatosGeneralesDao();
 }
