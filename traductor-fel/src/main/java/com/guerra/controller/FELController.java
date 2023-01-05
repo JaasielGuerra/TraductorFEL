@@ -201,7 +201,6 @@ public class FELController {
         alertProgressExportToPdf.setHeaderText("¡Se han exportado los archivos a PDF!");
     }
 
-    //TODO: cerrar sistema cuando se cierra la ventana principal
     @FXML
     private void onActionBtnCerrar() {
         log.info("Boton cerrar presionado");
