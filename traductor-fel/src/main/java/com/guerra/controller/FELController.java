@@ -6,6 +6,7 @@ import com.guerra.tasks.ExportToPdfInBackground;
 import com.guerra.tasks.ScanInputDirectoryInBackground;
 import com.guerra.util.AppProperties;
 import com.guerra.util.ShowAlertsUtil;
+import javafx.application.Platform;
 import javafx.concurrent.WorkerStateEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -207,7 +208,7 @@ public class FELController {
 
         Alert alert = ShowAlertsUtil.showConfirmation("Cerrar aplicación", "¿Está seguro que desea cerrar la aplicación?");
         if (alert.getResult() == ButtonType.OK) {
-            System.exit(0);
+            Platform.exit();
         }
     }
 
