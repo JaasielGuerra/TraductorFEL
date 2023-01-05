@@ -15,19 +15,19 @@ class ExportFelToPdfServiceImplTest {
     ExportFelToPdfService exportFelToPdfService;
 
     @BeforeEach
-    void setUp() throws IOException {
+    void setUp() {
 
         ConfigFelService configFelService = new ConfigFelServiceImpl(AppProperties.getPathToConfigFile());
 
         exportFelToPdfService = new ExportFelToPdfServiceImpl(
                 AppProperties.getPathOutputDirectory(),
                 AppProperties.getPathResourceExternalDirectory(),
-                configFelService.readConfig(),
+                configFelService,
                 AppProperties.getUrlBaseVerificadorFel());
     }
 
     @Test
-    void exportFelXmlToPdf() throws JRException, JAXBException {
+    void exportFelXmlToPdf() throws JRException, JAXBException, IOException {
         exportFelToPdfService.exportXml("FE49EB4D-5186-4C50-82FE-DCFB11AF5DAF.xml");
         assertTrue(true, "Se exporto el archivo FEL a PDF");
     }

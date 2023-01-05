@@ -1,18 +1,14 @@
 package com.guerra.controller;
 
 import com.guerra.model.dto.ConfigFelDto;
-import com.guerra.service.ConfigFelService;
-import com.guerra.service.ConfigFelServiceImpl;
-import com.guerra.service.FelScanService;
-import com.guerra.service.FelScanServiceImpl;
+import com.guerra.service.*;
+import com.guerra.tasks.ExportToPdfInBackground;
 import com.guerra.tasks.ScanInputDirectoryInBackground;
 import com.guerra.util.AppProperties;
 import com.guerra.util.ShowAlertsUtil;
+import javafx.concurrent.WorkerStateEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import lombok.extern.log4j.Log4j2;
 
 import java.io.IOException;
@@ -30,11 +26,15 @@ public class FELController {
     private TextField txtNameLogo;
     @FXML
     private ListView<String> lstViewArchivosXml;
+    private Alert alertProgressExportToPdf;
+    private ProgressIndicator progressBarExportToPdf;
 
     private ScanInputDirectoryInBackground scanInputDirectoryInBackground;
+    private ExportToPdfInBackground exportToPdfInBackground;
 
     private ConfigFelService configFelService;
     private FelScanService felScanService;
+    private ExportFelToPdfService exportFelToPdfService;
 
     public void initialize() {
         log.info("Aplicacion iniciada");
@@ -46,6 +46,12 @@ public class FELController {
         log.info("Inicializando servicios");
         configFelService = new ConfigFelServiceImpl(AppProperties.getPathToConfigFile());
         felScanService = new FelScanServiceImpl(AppProperties.getPathInputDirectory());
+        exportFelToPdfService = new ExportFelToPdfServiceImpl(
+                AppProperties.getPathOutputDirectory(),
+                AppProperties.getPathResourceExternalDirectory(),
+                configFelService,
+                AppProperties.getUrlBaseVerificadorFel()
+        );
     }
 
 
@@ -114,9 +120,87 @@ public class FELController {
 
     @FXML
     private void onActionBtnExportar() {
+
         log.info("Boton exportar presionado");
+
+        validateValueScanInputDirectoryInBackground();
+
+        log.debug("archivos a exportar: " + scanInputDirectoryInBackground.getValue());
+
+        inicializeExportToPdfInBackground();
+
+        inicializedProgressBarExportToPdf();
+
+        inicializedAlertProgressExportToPdf();
+        showAlertProgressExportToPdf();
+
+        invokeExportToPdfInBackground();
     }
 
+    private void validateValueScanInputDirectoryInBackground() {
+        if (nullValueScanInputDirectoryInBackground()) {
+            ShowAlertsUtil.showWarning("Escanear directorio", "Por favor escanear el directorio de entrada antes de exportar", null);
+            throw new RuntimeException("No se ha escaneado el directorio de entrada");
+        }
+
+        if (isEmptyValueScanInputDirectoryInBackground()) {
+            ShowAlertsUtil.showWarning("No hay archivos", "Por favor verifique que existan archivos xml en el directorio de entrada", null);
+            throw new RuntimeException("No se han encontrado archivos xml en el directorio de entrada");
+        }
+    }
+
+    private boolean nullValueScanInputDirectoryInBackground() {
+        return scanInputDirectoryInBackground == null || scanInputDirectoryInBackground.getValue() == null;
+    }
+
+    private boolean isEmptyValueScanInputDirectoryInBackground() {
+        return scanInputDirectoryInBackground.getValue().isEmpty();
+    }
+
+    private void inicializeExportToPdfInBackground() {
+        exportToPdfInBackground = new ExportToPdfInBackground(exportFelToPdfService, scanInputDirectoryInBackground.getValue());
+        exportToPdfInBackground.setOnFailed(this::printFailedExportToPdf);
+        exportToPdfInBackground.setOnSucceeded(this::changeHeaderAlertProgressExportToPdf);
+    }
+
+    private void inicializedProgressBarExportToPdf() {
+        progressBarExportToPdf = new ProgressIndicator();
+        progressBarExportToPdf.setPrefSize(100, 100);
+        progressBarExportToPdf.progressProperty().bind(exportToPdfInBackground.progressProperty());
+    }
+
+    private void inicializedAlertProgressExportToPdf() {
+        alertProgressExportToPdf = new Alert(Alert.AlertType.INFORMATION);
+        alertProgressExportToPdf.titleProperty().bind(exportToPdfInBackground.messageProperty());
+        alertProgressExportToPdf.setHeaderText("Espere mientras se exportan los archivos a PDF");
+        alertProgressExportToPdf.getDialogPane().setContent(progressBarExportToPdf);
+    }
+
+    private void showAlertProgressExportToPdf() {
+        alertProgressExportToPdf.show();
+    }
+
+    private void invokeExportToPdfInBackground() {
+        Thread threadExportToPdfInBackground = new Thread(exportToPdfInBackground);
+        threadExportToPdfInBackground.start();
+    }
+
+    private void printFailedExportToPdf(WorkerStateEvent event) {
+        closeAlertProgressExportToPdf();
+        log.error("Error al exportar a pdf", event.getSource().getException());
+        ShowAlertsUtil.showError("Ocurrieron errores al exportar a pdf", "Durante el proceso de exportación, ocurrieron los siguientes errores", event.getSource().getException().toString());
+    }
+
+    private void closeAlertProgressExportToPdf() {
+        alertProgressExportToPdf.close();
+    }
+
+    private void changeHeaderAlertProgressExportToPdf(WorkerStateEvent event) {
+        log.info("Exportación a pdf finalizada");
+        alertProgressExportToPdf.setHeaderText("¡Se han exportado los archivos a PDF!");
+    }
+
+    //TODO: cerrar sistema cuando se cierra la ventana principal
     @FXML
     private void onActionBtnCerrar() {
         log.info("Boton cerrar presionado");

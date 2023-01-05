@@ -12,6 +12,7 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 import javax.xml.bind.JAXBException;
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -24,8 +25,8 @@ public class ExportFelToPdfServiceImpl implements ExportFelToPdfService {
 
     private final String FEL_PDF_EXPORT_PATH;
     private final String PATH_TO_RESOURCES;
-    private final ConfigFelDto configFelDto;
     private final String URL_VERIFICADOR_FEL;
+    private final ConfigFelService configFelService;
 
     private EmisorDao emisorDao;
     private CertificacionDao certificacionDao;
@@ -39,22 +40,25 @@ public class ExportFelToPdfServiceImpl implements ExportFelToPdfService {
     InputStream inputStream;
     JasperReport jasperReport;
     JasperPrint jasperPrint;
+    ConfigFelDto configFelDto;
 
 
-    public ExportFelToPdfServiceImpl(String felPdfExportPath, String pathToResources, ConfigFelDto configFelDto, String urlVerificadorFel) {
+    public ExportFelToPdfServiceImpl(String felPdfExportPath, String pathToResources, ConfigFelService configFelService, String urlVerificadorFel) {
         FEL_PDF_EXPORT_PATH = felPdfExportPath;
         PATH_TO_RESOURCES = pathToResources;
-        this.configFelDto = configFelDto;
+        this.configFelService = configFelService;
         URL_VERIFICADOR_FEL = urlVerificadorFel;
     }
 
 
     @Override
-    public void exportXml(String fileName) throws JAXBException, JRException {
+    public void exportXml(String fileName) throws JAXBException, JRException, IOException {
 
         log.info("=========== [ Exportando archivo FEL a PDF ] ===========");
 
         loadDaosFromSource(fileName);
+
+        readConfigFel();
 
         configureParameters();
 
@@ -83,6 +87,9 @@ public class ExportFelToPdfServiceImpl implements ExportFelToPdfService {
         itemsDao = daoFactoryXml.getItemsDao();
     }
 
+    private void readConfigFel() throws IOException {
+        configFelDto = configFelService.readConfig();
+    }
     private void configureParameters() {
         log.info("configurando parametros...");
         parameters = new HashMap<>();
