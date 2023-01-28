@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="plantilla_fel" pageWidth="612" pageHeight="792" columnWidth="556" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="8b30b023-b11b-4c44-943c-630780e192b4">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
 	<property name="com.jaspersoft.studio.unit." value="pixel"/>
@@ -454,10 +454,10 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:columnFooter height="40" rowSpan="1"/>
-							<jr:detailCell height="11">
+							<jr:detailCell height="15">
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 								<textField>
-									<reportElement mode="Transparent" x="0" y="0" width="33" height="11" forecolor="#1F497D" uuid="055520fb-d4fc-482a-8731-f9195cc593a3"/>
+									<reportElement mode="Transparent" x="0" y="0" width="33" height="15" forecolor="#1F497D" uuid="055520fb-d4fc-482a-8731-f9195cc593a3"/>
 									<textElement textAlignment="Center" verticalAlignment="Middle">
 										<font size="9" isBold="true" isItalic="true"/>
 									</textElement>
@@ -477,10 +477,10 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:columnFooter height="40" rowSpan="1"/>
-							<jr:detailCell style="Table_TD" height="11">
+							<jr:detailCell style="Table_TD" height="15">
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 								<textField>
-									<reportElement mode="Transparent" x="0" y="0" width="18" height="11" forecolor="#1F497D" uuid="50f3cc2f-a345-49c5-86e1-06d2e1769ab2"/>
+									<reportElement mode="Transparent" x="0" y="0" width="18" height="15" forecolor="#1F497D" uuid="50f3cc2f-a345-49c5-86e1-06d2e1769ab2"/>
 									<textElement textAlignment="Center" verticalAlignment="Middle">
 										<font size="9" isBold="true"/>
 									</textElement>
@@ -500,9 +500,9 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:columnFooter height="40" rowSpan="1"/>
-							<jr:detailCell style="Table_TD" height="11">
+							<jr:detailCell style="Table_TD" height="15">
 								<textField>
-									<reportElement mode="Transparent" x="0" y="0" width="42" height="11" forecolor="#1F497D" uuid="1f61b429-1754-4dbe-835f-8472dfc0e5ca"/>
+									<reportElement mode="Transparent" x="0" y="0" width="42" height="15" forecolor="#1F497D" uuid="1f61b429-1754-4dbe-835f-8472dfc0e5ca"/>
 									<textElement textAlignment="Center" verticalAlignment="Middle">
 										<font size="9" isBold="true"/>
 									</textElement>
@@ -530,7 +530,7 @@
 										<textElement>
 											<font isBold="true"/>
 										</textElement>
-										<textFieldExpression><![CDATA[$P{TEXT_NOMBRE_CORTO} == null ? "No aplica IVA" : $P{TEXT_NOMBRE_CORTO} ]]></textFieldExpression>
+										<textFieldExpression><![CDATA[$P{TEXT_NOMBRE_CORTO} == null ? "No aplica IVA" : $P{TEXT_NOMBRE_CORTO}]]></textFieldExpression>
 									</textField>
 									<staticText>
 										<reportElement x="3" y="7" width="76" height="14" forecolor="#1F497D" uuid="aab57023-53e9-440d-83fe-316d6960ebc8"/>
@@ -549,10 +549,11 @@
 									</textField>
 								</frame>
 							</jr:columnFooter>
-							<jr:detailCell style="Table_TD" height="11">
+							<jr:detailCell style="Table_TD" height="15">
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 								<box topPadding="0" bottomPadding="0"/>
 								<textField textAdjust="StretchHeight">
-									<reportElement mode="Transparent" x="0" y="0" width="227" height="11" forecolor="#1F497D" uuid="1a88bb84-3d19-4a1e-a073-820ccfbee78d"/>
+									<reportElement mode="Transparent" x="0" y="0" width="227" height="15" forecolor="#1F497D" uuid="1a88bb84-3d19-4a1e-a073-820ccfbee78d"/>
 									<textElement verticalAlignment="Middle">
 										<font size="9" isBold="true"/>
 									</textElement>
@@ -580,9 +581,9 @@
 									<text><![CDATA[TOTALES]]></text>
 								</staticText>
 							</jr:columnFooter>
-							<jr:detailCell style="Table_TD" height="11">
+							<jr:detailCell style="Table_TD" height="15">
 								<textField pattern="#,##0.00;¤-#,##0.00">
-									<reportElement mode="Transparent" x="0" y="0" width="62" height="11" forecolor="#1F497D" uuid="01f5936a-af37-4c41-b3dd-2f0673ac5109"/>
+									<reportElement mode="Transparent" x="0" y="0" width="62" height="15" forecolor="#1F497D" uuid="01f5936a-af37-4c41-b3dd-2f0673ac5109"/>
 									<textElement textAlignment="Right" verticalAlignment="Middle">
 										<font size="8" isBold="true"/>
 									</textElement>
@@ -610,9 +611,9 @@
 									<textFieldExpression><![CDATA[$P{NUM_TOT_DESCUENTO}]]></textFieldExpression>
 								</textField>
 							</jr:columnFooter>
-							<jr:detailCell style="Table_TD" height="11">
+							<jr:detailCell style="Table_TD" height="15">
 								<textField pattern="#,##0.00;¤-#,##0.00">
-									<reportElement mode="Transparent" x="0" y="0" width="48" height="11" forecolor="#1F497D" uuid="62d0c276-6e49-4fbd-98dd-2b712cb7196e"/>
+									<reportElement mode="Transparent" x="0" y="0" width="48" height="15" forecolor="#1F497D" uuid="62d0c276-6e49-4fbd-98dd-2b712cb7196e"/>
 									<textElement textAlignment="Right" verticalAlignment="Middle">
 										<font size="9" isBold="true"/>
 									</textElement>
@@ -640,9 +641,9 @@
 									<textFieldExpression><![CDATA[$P{NUM_GRAN_TOTAL}]]></textFieldExpression>
 								</textField>
 							</jr:columnFooter>
-							<jr:detailCell style="Table_TD" height="11">
+							<jr:detailCell style="Table_TD" height="15">
 								<textField pattern="#,##0.00;¤-#,##0.00">
-									<reportElement mode="Transparent" x="0" y="0" width="46" height="11" forecolor="#1F497D" uuid="b5082446-f2a6-48b5-ad03-30fd9c105e26"/>
+									<reportElement mode="Transparent" x="0" y="0" width="46" height="15" forecolor="#1F497D" uuid="b5082446-f2a6-48b5-ad03-30fd9c105e26"/>
 									<textElement textAlignment="Right" verticalAlignment="Middle">
 										<font size="9" isBold="true"/>
 									</textElement>
