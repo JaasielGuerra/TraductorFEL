@@ -9,7 +9,7 @@
    <children>
       <BorderPane layoutX="145.0" layoutY="87.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <Label text="Traductor FEL v1.0" textAlignment="CENTER" BorderPane.alignment="CENTER">
+            <Label text="Traductor FEL v1.0" textAlignment="CENTER" BorderPane.alignment="CENTER" fx:id="lblTituloApp">
                <padding>
                   <Insets bottom="15.0" top="15.0" />
                </padding>
