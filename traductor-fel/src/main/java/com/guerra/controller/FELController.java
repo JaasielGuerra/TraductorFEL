@@ -1,6 +1,5 @@
 package com.guerra.controller;
 
-import com.guerra.Main;
 import com.guerra.model.dto.ConfigFelDto;
 import com.guerra.service.*;
 import com.guerra.tasks.ExportToPdfInBackground;
@@ -18,8 +17,6 @@ import java.io.IOException;
 @Log4j2
 public class FELController {
 
-    @FXML
-    private Label lblTituloApp;
     @FXML
     private TextField txtSocialFacebook;
     @FXML
@@ -42,16 +39,8 @@ public class FELController {
 
     public void initialize() {
         log.info("Aplicacion iniciada");
-        addProjectVersionToTitle();
         initServices();
         loadConfigurationFel();
-    }
-
-    private void addProjectVersionToTitle() {
-        Package mainPackage = Main.class.getPackage();
-        String version = mainPackage.getImplementationVersion();
-        String name = mainPackage.getImplementationTitle();
-        lblTituloApp.setText(name + " v" + version);
     }
 
     private void initServices() {

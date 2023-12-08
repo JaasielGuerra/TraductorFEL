@@ -4,7 +4,6 @@
     <artifactId>traductor-fel</artifactId>
     <version>1.0.2</version>
     <packaging>jar</packaging>
-    <name>Traductor FEL</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
@@ -147,7 +146,6 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                             <mainClass>com.guerra.Main</mainClass>
-                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                         </manifest>
                     </archive>
                 </configuration>
